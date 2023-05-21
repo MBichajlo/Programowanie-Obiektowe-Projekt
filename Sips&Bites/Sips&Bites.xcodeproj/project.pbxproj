@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01013F29292271AB00CE3D5E /* danieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01013F28292271AB00CE3D5E /* danieVC.swift */; };
+		01013F2B292271F100CE3D5E /* cocktailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01013F2A292271F100CE3D5E /* cocktailVC.swift */; };
 		015EA7912906D77700CEEED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EA7902906D77700CEEED1 /* AppDelegate.swift */; };
 		015EA7932906D77700CEEED1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EA7922906D77700CEEED1 /* SceneDelegate.swift */; };
 		015EA7982906D77700CEEED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015EA7962906D77700CEEED1 /* Main.storyboard */; };
@@ -20,6 +22,30 @@
 		01A8B5D52907FEAD00FDE75E /* daniaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8B5D42907FEAC00FDE75E /* daniaVC.swift */; };
 		01A8B5D72907FEBE00FDE75E /* cocktaileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8B5D62907FEBE00FDE75E /* cocktaileVC.swift */; };
 		01A8B5D92907FED600FDE75E /* userVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8B5D82907FED600FDE75E /* userVC.swift */; };
+		98599BA72947848300D5245D /* skladnikCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98599BA62947848300D5245D /* skladnikCell.swift */; };
+		98899D4A293E4E6500B5E9FE /* Sips&BitesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98899D48293E4E6500B5E9FE /* Sips&BitesModel.xcdatamodeld */; };
+		98899D79293E825800B5E9FE /* newCocktailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98899D78293E825800B5E9FE /* newCocktailVC.swift */; };
+		98899D8C2941269000B5E9FE /* newDanieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98899D8B2941269000B5E9FE /* newDanieVC.swift */; };
+		9889B7DA296D84EA008BC1BC /* errorAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889B7D9296D84EA008BC1BC /* errorAlerts.swift */; };
+		9889B7DD296DA6DF008BC1BC /* Przepis+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889B7DB296DA6DF008BC1BC /* Przepis+CoreDataClass.swift */; };
+		9889B7DE296DA6DF008BC1BC /* Przepis+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9889B7DC296DA6DF008BC1BC /* Przepis+CoreDataProperties.swift */; };
+		988DEB9E2917E7A000FEF727 /* skladnikClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988DEB9D2917E7A000FEF727 /* skladnikClass.swift */; };
+		988FBA41295BD4D80082E700 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 988FBA40295BD4D80082E700 /* .gitattributes */; };
+		988FDCD62916F4D3004F9470 /* QuestionableDesignChoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FDCD52916F4D3004F9470 /* QuestionableDesignChoices.swift */; };
+		988FDCDA2916FE1A004F9470 /* PrzepisClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FDCD92916FE1A004F9470 /* PrzepisClass.swift */; };
+		9899862D2950D8FC0050B1C8 /* DanieKategorieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9899862C2950D8FC0050B1C8 /* DanieKategorieVC.swift */; };
+		98AF09112986C66C00480EE7 /* DanieJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF09102986C66B00480EE7 /* DanieJSON.swift */; };
+		98B576202947892C007B9EED /* skladnikCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5761F2947892C007B9EED /* skladnikCellModel.swift */; };
+		98DD74C529194BD3008F602E /* DanieClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DD74C429194BD3008F602E /* DanieClass.swift */; };
+		98DD74C729194CE5008F602E /* CocktailClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DD74C629194CE5008F602E /* CocktailClass.swift */; };
+		98E4DFA2295BD8BF00F63339 /* Danie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4DF98295BD8BF00F63339 /* Danie+CoreDataClass.swift */; };
+		98E4DFA3295BD8BF00F63339 /* Danie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4DF99295BD8BF00F63339 /* Danie+CoreDataProperties.swift */; };
+		98E4DFA4295BD8BF00F63339 /* Cocktail+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4DF9A295BD8BF00F63339 /* Cocktail+CoreDataClass.swift */; };
+		98E4DFA5295BD8BF00F63339 /* Cocktail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4DF9B295BD8BF00F63339 /* Cocktail+CoreDataProperties.swift */; };
+		98E4DFA6295BD8BF00F63339 /* Skladnik+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4DF9C295BD8BF00F63339 /* Skladnik+CoreDataClass.swift */; };
+		98E4DFA7295BD8BF00F63339 /* Skladnik+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4DF9D295BD8BF00F63339 /* Skladnik+CoreDataProperties.swift */; };
+		98E4DFA8295BD8BF00F63339 /* Uzytkownik+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4DF9E295BD8BF00F63339 /* Uzytkownik+CoreDataClass.swift */; };
+		98E4DFA9295BD8BF00F63339 /* Uzytkownik+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4DF9F295BD8BF00F63339 /* Uzytkownik+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +65,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		98C9B58E292D2C0000F6B2A6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		01013F28292271AB00CE3D5E /* danieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = danieVC.swift; sourceTree = "<group>"; };
+		01013F2A292271F100CE3D5E /* cocktailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cocktailVC.swift; sourceTree = "<group>"; };
 		015EA78D2906D77700CEEED1 /* Sips&Bites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sips&Bites.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		015EA7902906D77700CEEED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		015EA7922906D77700CEEED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +98,31 @@
 		01A8B5D42907FEAC00FDE75E /* daniaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daniaVC.swift; sourceTree = "<group>"; };
 		01A8B5D62907FEBE00FDE75E /* cocktaileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cocktaileVC.swift; sourceTree = "<group>"; };
 		01A8B5D82907FED600FDE75E /* userVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userVC.swift; sourceTree = "<group>"; };
+		98599BA62947848300D5245D /* skladnikCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skladnikCell.swift; sourceTree = "<group>"; };
+		98899D49293E4E6500B5E9FE /* Sips&BitesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Sips&BitesModel.xcdatamodel"; sourceTree = "<group>"; };
+		98899D78293E825800B5E9FE /* newCocktailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newCocktailVC.swift; sourceTree = "<group>"; };
+		98899D8B2941269000B5E9FE /* newDanieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newDanieVC.swift; sourceTree = "<group>"; };
+		9889B7D9296D84EA008BC1BC /* errorAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = errorAlerts.swift; sourceTree = "<group>"; };
+		9889B7DB296DA6DF008BC1BC /* Przepis+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Przepis+CoreDataClass.swift"; path = "../../Przepis+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9889B7DC296DA6DF008BC1BC /* Przepis+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Przepis+CoreDataProperties.swift"; path = "../../Przepis+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		988DEB9D2917E7A000FEF727 /* skladnikClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skladnikClass.swift; sourceTree = "<group>"; };
+		988FBA40295BD4D80082E700 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		988FDCD52916F4D3004F9470 /* QuestionableDesignChoices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionableDesignChoices.swift; sourceTree = "<group>"; };
+		988FDCD92916FE1A004F9470 /* PrzepisClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrzepisClass.swift; sourceTree = "<group>"; };
+		9899862C2950D8FC0050B1C8 /* DanieKategorieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanieKategorieVC.swift; sourceTree = "<group>"; };
+		98AF09102986C66B00480EE7 /* DanieJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanieJSON.swift; sourceTree = "<group>"; };
+		98AF09122987115D00480EE7 /* Sips&Bites.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sips&Bites.entitlements"; sourceTree = "<group>"; };
+		98B5761F2947892C007B9EED /* skladnikCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skladnikCellModel.swift; sourceTree = "<group>"; };
+		98DD74C429194BD3008F602E /* DanieClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanieClass.swift; sourceTree = "<group>"; };
+		98DD74C629194CE5008F602E /* CocktailClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailClass.swift; sourceTree = "<group>"; };
+		98E4DF98295BD8BF00F63339 /* Danie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Danie+CoreDataClass.swift"; path = "../../Danie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		98E4DF99295BD8BF00F63339 /* Danie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Danie+CoreDataProperties.swift"; path = "../../Danie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		98E4DF9A295BD8BF00F63339 /* Cocktail+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Cocktail+CoreDataClass.swift"; path = "../../Cocktail+CoreDataClass.swift"; sourceTree = "<group>"; };
+		98E4DF9B295BD8BF00F63339 /* Cocktail+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Cocktail+CoreDataProperties.swift"; path = "../../Cocktail+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		98E4DF9C295BD8BF00F63339 /* Skladnik+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Skladnik+CoreDataClass.swift"; path = "../../Skladnik+CoreDataClass.swift"; sourceTree = "<group>"; };
+		98E4DF9D295BD8BF00F63339 /* Skladnik+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Skladnik+CoreDataProperties.swift"; path = "../../Skladnik+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		98E4DF9E295BD8BF00F63339 /* Uzytkownik+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Uzytkownik+CoreDataClass.swift"; sourceTree = "<group>"; };
+		98E4DF9F295BD8BF00F63339 /* Uzytkownik+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Uzytkownik+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +153,13 @@
 		015EA7842906D77600CEEED1 = {
 			isa = PBXGroup;
 			children = (
+				988FBA40295BD4D80082E700 /* .gitattributes */,
+				98899D48293E4E6500B5E9FE /* Sips&BitesModel.xcdatamodeld */,
 				015EA78F2906D77700CEEED1 /* Sips&Bites */,
 				015EA7A62906D77900CEEED1 /* Sips&BitesTests */,
 				015EA7B02906D77900CEEED1 /* Sips&BitesUITests */,
 				015EA78E2906D77700CEEED1 /* Products */,
+				98C9B58B292D2C0000F6B2A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,14 +176,15 @@
 		015EA78F2906D77700CEEED1 /* Sips&Bites */ = {
 			isa = PBXGroup;
 			children = (
+				98AF09122987115D00480EE7 /* Sips&Bites.entitlements */,
+				98899D7A2940E4AD00B5E9FE /* Model */,
 				015EA7902906D77700CEEED1 /* AppDelegate.swift */,
 				015EA7922906D77700CEEED1 /* SceneDelegate.swift */,
-				015EA7C02906D7C500CEEED1 /* Sips&BitesVC.swift */,
-				015EA7C22906E73000CEEED1 /* menuVC.swift */,
-				01A8B5D42907FEAC00FDE75E /* daniaVC.swift */,
-				01A8B5D62907FEBE00FDE75E /* cocktaileVC.swift */,
-				01A8B5D82907FED600FDE75E /* userVC.swift */,
+				98AF09102986C66B00480EE7 /* DanieJSON.swift */,
+				981E4323291A99CB00B4AA78 /* VCs */,
+				981E4321291A99A700B4AA78 /* Klasy */,
 				015EA7962906D77700CEEED1 /* Main.storyboard */,
+				988FDCD52916F4D3004F9470 /* QuestionableDesignChoices.swift */,
 				015EA7992906D77800CEEED1 /* Assets.xcassets */,
 				015EA79B2906D77800CEEED1 /* LaunchScreen.storyboard */,
 				015EA79E2906D77800CEEED1 /* Info.plist */,
@@ -139,6 +209,61 @@
 			path = "Sips&BitesUITests";
 			sourceTree = "<group>";
 		};
+		981E4321291A99A700B4AA78 /* Klasy */ = {
+			isa = PBXGroup;
+			children = (
+				98DD74C629194CE5008F602E /* CocktailClass.swift */,
+				9889B7D9296D84EA008BC1BC /* errorAlerts.swift */,
+				98DD74C429194BD3008F602E /* DanieClass.swift */,
+				988FDCD92916FE1A004F9470 /* PrzepisClass.swift */,
+				988DEB9D2917E7A000FEF727 /* skladnikClass.swift */,
+			);
+			path = Klasy;
+			sourceTree = "<group>";
+		};
+		981E4323291A99CB00B4AA78 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				015EA7C02906D7C500CEEED1 /* Sips&BitesVC.swift */,
+				015EA7C22906E73000CEEED1 /* menuVC.swift */,
+				01A8B5D42907FEAC00FDE75E /* daniaVC.swift */,
+				9899862C2950D8FC0050B1C8 /* DanieKategorieVC.swift */,
+				01A8B5D62907FEBE00FDE75E /* cocktaileVC.swift */,
+				01A8B5D82907FED600FDE75E /* userVC.swift */,
+				98899D8B2941269000B5E9FE /* newDanieVC.swift */,
+				98899D78293E825800B5E9FE /* newCocktailVC.swift */,
+				01013F28292271AB00CE3D5E /* danieVC.swift */,
+				01013F2A292271F100CE3D5E /* cocktailVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		98899D7A2940E4AD00B5E9FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98E4DF98295BD8BF00F63339 /* Danie+CoreDataClass.swift */,
+				98E4DF99295BD8BF00F63339 /* Danie+CoreDataProperties.swift */,
+				98E4DF9A295BD8BF00F63339 /* Cocktail+CoreDataClass.swift */,
+				9889B7DB296DA6DF008BC1BC /* Przepis+CoreDataClass.swift */,
+				9889B7DC296DA6DF008BC1BC /* Przepis+CoreDataProperties.swift */,
+				98E4DF9B295BD8BF00F63339 /* Cocktail+CoreDataProperties.swift */,
+				98E4DF9C295BD8BF00F63339 /* Skladnik+CoreDataClass.swift */,
+				98E4DF9D295BD8BF00F63339 /* Skladnik+CoreDataProperties.swift */,
+				98E4DF9E295BD8BF00F63339 /* Uzytkownik+CoreDataClass.swift */,
+				98E4DF9F295BD8BF00F63339 /* Uzytkownik+CoreDataProperties.swift */,
+				98B5761F2947892C007B9EED /* skladnikCellModel.swift */,
+				98599BA62947848300D5245D /* skladnikCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98C9B58B292D2C0000F6B2A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +274,7 @@
 				015EA7892906D77700CEEED1 /* Sources */,
 				015EA78A2906D77700CEEED1 /* Frameworks */,
 				015EA78B2906D77700CEEED1 /* Resources */,
+				98C9B58E292D2C0000F6B2A6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,6 +372,7 @@
 				015EA79D2906D77800CEEED1 /* LaunchScreen.storyboard in Resources */,
 				015EA79A2906D77800CEEED1 /* Assets.xcassets in Resources */,
 				015EA7982906D77700CEEED1 /* Main.storyboard in Resources */,
+				988FBA41295BD4D80082E700 /* .gitattributes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,11 +398,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A8B5D72907FEBE00FDE75E /* cocktaileVC.swift in Sources */,
+				98899D79293E825800B5E9FE /* newCocktailVC.swift in Sources */,
+				98899D4A293E4E6500B5E9FE /* Sips&BitesModel.xcdatamodeld in Sources */,
+				9899862D2950D8FC0050B1C8 /* DanieKategorieVC.swift in Sources */,
 				01A8B5D92907FED600FDE75E /* userVC.swift in Sources */,
+				98AF09112986C66C00480EE7 /* DanieJSON.swift in Sources */,
+				98DD74C729194CE5008F602E /* CocktailClass.swift in Sources */,
+				98E4DFA4295BD8BF00F63339 /* Cocktail+CoreDataClass.swift in Sources */,
+				01013F2B292271F100CE3D5E /* cocktailVC.swift in Sources */,
+				98E4DFA7295BD8BF00F63339 /* Skladnik+CoreDataProperties.swift in Sources */,
+				9889B7DD296DA6DF008BC1BC /* Przepis+CoreDataClass.swift in Sources */,
+				98E4DFA6295BD8BF00F63339 /* Skladnik+CoreDataClass.swift in Sources */,
 				015EA7912906D77700CEEED1 /* AppDelegate.swift in Sources */,
+				988FDCDA2916FE1A004F9470 /* PrzepisClass.swift in Sources */,
+				9889B7DE296DA6DF008BC1BC /* Przepis+CoreDataProperties.swift in Sources */,
 				015EA7C32906E73000CEEED1 /* menuVC.swift in Sources */,
+				988DEB9E2917E7A000FEF727 /* skladnikClass.swift in Sources */,
+				9889B7DA296D84EA008BC1BC /* errorAlerts.swift in Sources */,
+				98599BA72947848300D5245D /* skladnikCell.swift in Sources */,
 				015EA7932906D77700CEEED1 /* SceneDelegate.swift in Sources */,
+				98E4DFA9295BD8BF00F63339 /* Uzytkownik+CoreDataProperties.swift in Sources */,
 				015EA7C12906D7C500CEEED1 /* Sips&BitesVC.swift in Sources */,
+				98E4DFA8295BD8BF00F63339 /* Uzytkownik+CoreDataClass.swift in Sources */,
+				01013F29292271AB00CE3D5E /* danieVC.swift in Sources */,
+				98E4DFA3295BD8BF00F63339 /* Danie+CoreDataProperties.swift in Sources */,
+				98B576202947892C007B9EED /* skladnikCellModel.swift in Sources */,
+				98DD74C529194BD3008F602E /* DanieClass.swift in Sources */,
+				98E4DFA5295BD8BF00F63339 /* Cocktail+CoreDataProperties.swift in Sources */,
+				98899D8C2941269000B5E9FE /* newDanieVC.swift in Sources */,
+				988FDCD62916F4D3004F9470 /* QuestionableDesignChoices.swift in Sources */,
+				98E4DFA2295BD8BF00F63339 /* Danie+CoreDataClass.swift in Sources */,
 				01A8B5D52907FEAD00FDE75E /* daniaVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,8 +603,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Sips&Bites/Sips&Bites.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GP3S2F86K7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sips&Bites/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -460,12 +615,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Pawe--Ciach.Sips-Bites";
+				PRODUCT_BUNDLE_IDENTIFIER = SipsAndBites;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -478,8 +634,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Sips&Bites/Sips&Bites.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MGFFV5UPUD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sips&Bites/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -487,12 +646,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Pawe--Ciach.Sips-Bites";
+				PRODUCT_BUNDLE_IDENTIFIER = SipsAndBites;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -612,6 +772,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98899D48293E4E6500B5E9FE /* Sips&BitesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98899D49293E4E6500B5E9FE /* Sips&BitesModel.xcdatamodel */,
+			);
+			currentVersion = 98899D49293E4E6500B5E9FE /* Sips&BitesModel.xcdatamodel */;
+			path = "Sips&BitesModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 015EA7852906D77600CEEED1 /* Project object */;
 }
