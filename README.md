@@ -1,10 +1,7 @@
 # Programowanie-Obiektowe-ProjektOpis aplikacji:
-Aplikacja na system iOS, przedstawia przepisy i sposoby wykonania dań i cocktaili.
-Język Swift
+Aplikacja na system iOS służąca do przechowywania, tworenia, i odczytu przepisów bazująca na UIKit i CoreData
 
 Funkcje:
--odczyt przepisów
--ocenianie przepisów
--dodawanie własnych przepisów (pliki)
--udostępnianie własnych przepisów
+-odczyt i zapis przepisów 
+-udostępnianie własnych przepisów (Eksport i import do .json)
 -kategoryzacja przepisów
